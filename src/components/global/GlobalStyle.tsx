@@ -28,6 +28,11 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     object-fit: cover;
   }  
+
+  input {
+    border:none;
+    outline:none;
+  }
 `;
 
 export default GlobalStyle;
