@@ -21,6 +21,7 @@ export const StyledSection = styled.section`
 export const StyledContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 
   @media (max-width: 1024px) {
     flex-direction: column;
@@ -263,6 +264,10 @@ export const StyledBoxPersonFirst = styled.div`
   img {
     border-radius: 50%;
   }
+
+  @media (max-width: 768px) {
+    top: 12px;
+  }
 `;
 
 export const StyledBoxPersonSecond = styled.div`
@@ -277,6 +282,10 @@ export const StyledBoxPersonSecond = styled.div`
   img {
     border-radius: 50%;
   }
+
+  @media (max-width: 768px) {
+    top: 12px;
+  }
 `;
 
 export const StyledBoxPersonThird = styled.div`
@@ -290,6 +299,10 @@ export const StyledBoxPersonThird = styled.div`
 
   img {
     border-radius: 50%;
+  }
+
+  @media (max-width: 768px) {
+    top: 12px;
   }
 `;
 

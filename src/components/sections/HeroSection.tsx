@@ -1,6 +1,4 @@
-'use client';
-
-import React from 'react';
+import { FC } from 'react';
 import {
   StyledBoxLogo,
   StyledBoxIconForm,
@@ -41,7 +39,7 @@ import Image from 'next/image';
 import AirLogoSvg from '../icons/hero/AirLogoSvg';
 import TripLogoSvg from '../icons/hero/TripLogoSvg';
 
-const HeroSection = () => {
+const HeroSection: FC = () => {
   return (
     <StyledSection>
       <StyledContainer>
