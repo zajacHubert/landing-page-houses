@@ -182,6 +182,11 @@ export const StyledColImg = styled.div`
   position: relative;
   max-height: 800px;
   width: 50%;
+  border-radius: 20px;
+
+  img {
+    border-radius: 20px;
+  }
 
   @media (max-width: 1200px) {
     width: 55%;

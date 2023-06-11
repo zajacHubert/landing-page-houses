@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { FreeMode, Navigation } from 'swiper';
+import { Navigation } from 'swiper';
 import { featuredHousesList } from '@/data/featuredHousesList';
 import FeaturedSliderCard from './FeaturedSliderCard';
 
