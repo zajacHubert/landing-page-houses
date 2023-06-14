@@ -5,6 +5,7 @@ import FeaturedSection from '@/components/sections/FeaturedSection';
 import HeroSection from '@/components/sections/HeroSection';
 import ReviewSection from '@/components/sections/ReviewSection';
 import SellSection from '@/components/sections/SellSection';
+import TipsSection from '@/components/sections/TipsSection';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <FeaturedSection />
         <SellSection />
         <ReviewSection />
+        <TipsSection />
       </main>
     </>
   );

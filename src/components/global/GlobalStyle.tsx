@@ -21,6 +21,11 @@ const GlobalStyle = createGlobalStyle`
     cursor: pointer;
     background: transparent;
     border: none;
+    transition: 0.3s;   
+  }
+
+  button:hover{
+      opacity: 0.85;
   }
 
   img {
