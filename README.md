@@ -4,7 +4,7 @@
 
 ## This repository contains a Landing Page project built using Next.js and TypeScript. The project aims to provide a foundation for creating modern and responsive landing pages.
 
-##Features
+## Features
   - Next.js: The project utilizes Next.js, a powerful React framework that offers server-side rendering, static site generation, and other advanced features out of the box.
   - TypeScript: The codebase is written in TypeScript, which provides static typing and enhanced developer experience for better code quality and maintainability.
   - Responsive Design: The landing page is designed to be fully responsive, ensuring a seamless user experience across different devices and screen sizes.
