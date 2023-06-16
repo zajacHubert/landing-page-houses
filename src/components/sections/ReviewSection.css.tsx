@@ -30,6 +30,11 @@ export const StyledTitle = styled.h2`
   font-size: 32px;
   color: #1b1c57;
   margin-bottom: 40px;
+
+  @media (max-width: 480px) {
+    text-align: center;
+    max-width: 300px;
+  }
 `;
 
 export const StyledBoxSlider = styled.div``;
