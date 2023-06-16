@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import EnvelopeIconSvg from '../icons/subscription/EnvelopeIconSvg';
 import {
   StyledBoxIconForm,
   StyledBoxTitle,
@@ -8,7 +9,6 @@ import {
   StyledSection,
   StyledTitle,
 } from './SubscriptionSection.css';
-import EnvelopeIconSvg from '../icons/subscription/EnvelopeIconSvg';
 
 const SubscriptionSection: FC = () => {
   return (

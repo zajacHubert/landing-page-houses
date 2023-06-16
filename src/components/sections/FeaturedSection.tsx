@@ -1,4 +1,7 @@
 import { FC } from 'react';
+import ArrowLeftIconSvg from '../icons/featured/ArrowLeftIcon.Svg';
+import ArrowRightIconSvg from '../icons/featured/ArrowRightIconSvg';
+import FeaturedSlider from '../sliders/FeaturedSlider';
 import {
   StyledBoxArrowIcon,
   StyledBoxArrows,
@@ -11,9 +14,6 @@ import {
   StyledTextRecommendation,
   StyledTitle,
 } from './FeaturedSection.css';
-import ArrowLeftIconSvg from '../icons/featured/ArrowLeftIcon.Svg';
-import ArrowRightIconSvg from '../icons/featured/ArrowRightIconSvg';
-import FeaturedSlider from '../sliders/FeaturedSlider';
 
 const FeaturedSection: FC = () => {
   return (

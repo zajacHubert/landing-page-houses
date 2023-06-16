@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import ReviewSlider from '../sliders/ReviewSlider';
 import {
   StyledPReview,
   StyledSection,
@@ -7,7 +8,6 @@ import {
   StyledTitle,
   StyledBoxSlider,
 } from './ReviewSection.css';
-import ReviewSlider from '../sliders/ReviewSlider';
 
 const ReviewSection: FC = () => {
   return (

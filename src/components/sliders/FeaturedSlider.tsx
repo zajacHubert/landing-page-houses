@@ -1,9 +1,9 @@
 import { FC } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 import { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { featuredHousesList } from '@/data/featuredHousesList';
 import FeaturedSliderCard from './FeaturedSliderCard';
+import 'swiper/css';
 
 const FeaturedSlider: FC = () => {
   return (

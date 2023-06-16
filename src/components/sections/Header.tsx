@@ -7,7 +7,7 @@ import {
   StyledBoxTitle,
   StyledContainer,
   StyledForm,
-  StyledSection,
+  StyledHeader,
   StyledSpanTransparent,
   StyledText,
   StyledTitle,
@@ -29,7 +29,7 @@ import {
   StyledTextCard,
   StyledBoxImgBuilding,
   StyledBoxShapes,
-} from './HeroSection.css';
+} from './Header.css';
 import LogoIconSvg from '../icons/hero/LogoIconSvg';
 import PlaceIconSvg from '../icons/hero/PlaceIconSvg';
 import RightArrowIconSvg from '../icons/hero/RightArrowIconSvg';
@@ -37,11 +37,11 @@ import TravelokaLogoSvg from '../icons/hero/TravelokaLogoSvg';
 import TicketLogoSvg from '../icons/hero/TicketLogoSvg';
 import Image from 'next/image';
 import AirLogoSvg from '../icons/hero/AirLogoSvg';
-import TripLogoSvg from '../icons/hero/TripLogoSvg';
+import InfinityTravelLogoSvg from '../icons/hero/InfinityTravelLogoSvg';
 
-const HeroSection: FC = () => {
+const Header: FC = () => {
   return (
-    <StyledSection>
+    <StyledHeader>
       <StyledContainer>
         <StyledBoxText>
           <StyledBoxLogo>
@@ -88,7 +88,7 @@ const HeroSection: FC = () => {
               <AirLogoSvg />
             </StyledBoxLogoPartnership>
             <StyledBoxLogoPartnership>
-              <TripLogoSvg />
+              <InfinityTravelLogoSvg />
             </StyledBoxLogoPartnership>
           </StyledBoxLogos>
         </StyledBoxText>
@@ -149,8 +149,8 @@ const HeroSection: FC = () => {
           </StyledBoxCards>
         </StyledColImg>
       </StyledContainer>
-    </StyledSection>
+    </StyledHeader>
   );
 };
 
-export default HeroSection;
+export default Header;

@@ -1,4 +1,9 @@
 import { FC } from 'react';
+import Image from 'next/image';
+import TipCard from '../tips/TipCard';
+import TimeIconSvg from '../icons/tips/TimeIconSvg';
+import ContactForm from '../tips/ContactForm';
+import { tipsList } from '@/data/tipsList';
 import {
   StyledBoxForm,
   StyledBoxIcon,
@@ -21,11 +26,6 @@ import {
   StyledTitle,
   StyledTitleArticle,
 } from './TipsSection.css';
-import Image from 'next/image';
-import { tipsList } from '@/data/tipsList';
-import TipCard from '../tips/TipCard';
-import TimeIconSvg from '../icons/tips/TimeIconSvg';
-import ContactForm from '../tips/ContactForm';
 
 const TipsSection: FC = () => {
   return (

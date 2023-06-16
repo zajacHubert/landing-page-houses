@@ -1,4 +1,6 @@
 import { FC } from 'react';
+import Image from 'next/image';
+import TimeIconSvg from '../icons/tips/TimeIconSvg';
 import {
   StyledBoxIcon,
   StyledBoxImg,
@@ -11,8 +13,6 @@ import {
   StyledPName,
   StyledTitleCard,
 } from './TipCard.css';
-import Image from 'next/image';
-import TimeIconSvg from '../icons/tips/TimeIconSvg';
 
 interface TipCardProps {
   imgHouse: string;

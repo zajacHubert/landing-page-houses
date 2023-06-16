@@ -1,6 +1,7 @@
 import { FC, useState } from 'react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
+import PopupFormInfo from './PopupFormInfo';
 import {
   StyledBoxLabelError,
   StyledBtn,
@@ -10,7 +11,6 @@ import {
   StyledPError,
   StyledTitle,
 } from './ContactForm.css';
-import PopupFormInfo from './PopupFormInfo';
 
 interface ContactFormInterface {
   name: string;

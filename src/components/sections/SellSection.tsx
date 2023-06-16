@@ -1,4 +1,10 @@
 import { FC } from 'react';
+import Image from 'next/image';
+import BathIconSvg from '../icons/sell/BathIconSvg';
+import BedroomIconSvg from '../icons/sell/BedroomIconSvg';
+import CarIconSvg from '../icons/sell/CarIconSvg';
+import StairsIconSvg from '../icons/sell/StairsIconSvg';
+import PhoneIconSvg from '../icons/sell/PhoneIconSvg';
 import {
   StyledBoxBtnIcon,
   StyledBoxIcon,
@@ -26,12 +32,6 @@ import {
   StyledTitle,
   StyledTitleInfo,
 } from './SellSections.css';
-import BathIconSvg from '../icons/sell/BathIconSvg';
-import BedroomIconSvg from '../icons/sell/BedroomIconSvg';
-import CarIconSvg from '../icons/sell/CarIconSvg';
-import StairsIconSvg from '../icons/sell/StairsIconSvg';
-import PhoneIconSvg from '../icons/sell/PhoneIconSvg';
-import Image from 'next/image';
 
 const SellSection: FC = () => {
   return (

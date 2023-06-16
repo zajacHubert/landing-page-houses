@@ -4,10 +4,10 @@ import { Pagination, Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { opinionsList } from '@/data/opinionsList';
-import ReviewSliderCard from './RevievSliderCard';
 import { renderToString } from 'react-dom/server';
 import 'swiper/swiper.min.css';
 import { StyledBullet } from './ReviewSliderCard.css';
+import ReviewSliderCard from './RevievSliderCard';
 
 const ReviewSlider: FC = () => {
   const renderBullet = (index: number, className: string) => {

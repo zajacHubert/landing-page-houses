@@ -1,5 +1,9 @@
 import { FC, useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Status } from '@/types/status';
+import FireStatusIconSvg from '../icons/featured/FireStatusIconSvg';
+import HouseStatusIconSvg from '../icons/featured/HouseStatusIconSvg';
+import BookStatusIconSvg from '../icons/featured/BookStatusIconSvg';
 import {
   StyledBoxCategory,
   StyledBoxIcon,
@@ -14,10 +18,6 @@ import {
   StyledTextCategory,
   StyledTitleCard,
 } from './FeaturedSliderCard.css';
-import FireStatusIconSvg from '../icons/featured/FireStatusIconSvg';
-import HouseStatusIconSvg from '../icons/featured/HouseStatusIconSvg';
-import BookStatusIconSvg from '../icons/featured/BookStatusIconSvg';
-import Image from 'next/image';
 
 interface FeaturedSliderCardProps {
   title: string;
