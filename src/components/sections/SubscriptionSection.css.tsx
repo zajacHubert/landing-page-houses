@@ -73,7 +73,7 @@ export const StyledForm = styled.form`
   background-color: #fff;
 
   @media (max-width: 768px) {
-    width: 80%;
+    width: 95%;
   }
 `;
 
