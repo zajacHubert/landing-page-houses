@@ -1,6 +1,6 @@
 # Landing Page Project - Next.js with TypeScript
 # Live preview
-# https://landing-page-houses.vercel.app/
+# https://landing-page-houses.vercel.app
 
 ## This repository contains a Landing Page project built using Next.js and TypeScript. The project aims to provide a foundation for creating modern and responsive landing pages.
 
